@@ -1,0 +1,91 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Form container styles */
+.form-container {
+    background-color: #fff; /* White background for the form */
+    padding: 40px 50px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+    max-width: 450px; /* Limit the width */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Form title */
+h1 {
+    font-size: 30px;
+    font-weight: 700; /* Bold title */
+    color: #333;
+    margin-bottom: 30px; /* Space below title */
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid #ddd;
+    border-radius: 30px; /* Rounded input fields */
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+    background-color: #fff;
+    outline: none;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px; /* Rounded button */
+    background-color: #007bff; /* Premium blue */
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Message container for feedback */
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Success message style */
+.success {
+    color: #28a745; /* Green color for success */
+    font-weight: bold;
+}
+
+/* Error message style */
+.error {
+    color: #dc3545; /* Red color for error */
+    font-weight: bold;
+}
